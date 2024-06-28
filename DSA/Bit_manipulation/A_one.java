@@ -4,7 +4,7 @@ public class A_one {
     public static void main(String args[]){
         /// rules:
         /*
-        * the left shift operater is <<, usecase: 13<<k here it means 13*w power k
+        * the left shift operater is <<, usecase: (num)13<<k here it means (num)13*2 power k
         * the right shift operator is >>, use case: 13<<k here it means 13/(2 power k)
         * the negative number is stored in the form of 2's complement
         *                         NOT of negative
@@ -18,7 +18,7 @@ public class A_one {
         *                 store.        store.
         *
         *
-        *XOR : Even no 1's:0 and odd no. of ones:1
+        *XOR : Even no 1's:0 and odd no. of ones:1 (Behaviour for different values)
         *
         * swap number using bit map: a=a^b^a b=a^b^b
         * so
@@ -54,6 +54,15 @@ public class A_one {
         *
         *                             if number is power of two= (n*(n-1))==0
         *
+
+
+        SWAP TWO NUMBERS:(Property Xor with same number gives value 0)
+        A=(A^B)
+        B=(A^B) MEANS (A^B)^B= A [HERE A=A^B AND B=B]
+        NOW:
+        A=A^B MEANS(A=A^B XOR with A gives B)
+
         * */
     }
 }
+
