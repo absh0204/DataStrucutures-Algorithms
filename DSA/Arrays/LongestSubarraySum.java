@@ -18,7 +18,6 @@ public class LongestSubarraySum {
             if(sum==k){
                 len=Math.max(len,i+1);
             }
-            
             if(hm.containsKey(sum-k)){
                 int idx=hm.get(sum-k);
                 len=Math.max(len,i-idx);

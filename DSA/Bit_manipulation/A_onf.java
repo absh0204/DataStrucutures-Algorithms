@@ -1,4 +1,4 @@
-package javabasics.Second_src.Bit_manipulation;
+
 
 public class A_onf {
     
